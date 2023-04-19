@@ -32,7 +32,7 @@
                 </div>
                 <!-- THUMB -->
                 <div id="thumb" class="d-flex justify-content-center">
-                    <img v-for="(element,index) in copertine.images" v-bind:src="element" alt="thumb ${index}" v-bind:class="(imgActive==index) ? 'selected' : '' ">
+                    <img v-for="(element,index) in copertine.images" v-bind:src="element" alt="thumb ${index}" v-bind:class="(imgActive==index) ? 'selected' : '' " @click="changeImg(index)">
                 </div>
                 <!-- CONSOLE COMANDO -->
                 <div id="console" class="m-3">
