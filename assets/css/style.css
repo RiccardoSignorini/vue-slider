@@ -6,11 +6,12 @@
 }
 
 #foto{
-    width: 400px;
+    width: 100%;
 }
 
 img{
     object-fit: cover;
+    width: 40%;
 }
 
 #prev i, #next i{
@@ -37,4 +38,8 @@ i:hover{
 
 #console div{
     display: inline-block;
+}
+
+#thumb img{
+    width: calc(40%/5);
 }
