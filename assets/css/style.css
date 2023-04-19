@@ -10,13 +10,13 @@
 }
 
 #foto img{
-    object-fit: cover;
     width: 40%;
     height: 500px;
 }
 
 img{
     opacity: 0.7;
+    object-fit: cover;
 }
 
 img:hover{
