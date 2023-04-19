@@ -22,8 +22,12 @@
             <div id="carousel">
                 <!-- SLIDER -->
                 <div id="foto" class="text-light">
-                    <div class="item active first">
+                    <div class="item active first position-relative">
                         <img v-bind:src="copertine.images[imgActive]" alt="">
+                        <div id="text" class="position-absolute end-0 bottom-50">
+                            <h4>{{copertine.titles[imgActive]}}</h4>
+                            <p>{{copertine.texts[imgActive]}}</p>
+                        </div>
                     </div>
                 </div>
                 <!-- THUMB -->

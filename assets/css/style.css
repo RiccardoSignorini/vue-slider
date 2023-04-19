@@ -43,3 +43,7 @@ i:hover{
 #thumb img{
     width: calc(40%/5);
 }
+
+#text{
+    width: 100%;
+}
