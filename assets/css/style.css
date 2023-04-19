@@ -1,0 +1,40 @@
+#carousel{
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#foto{
+    width: 400px;
+}
+
+img{
+    object-fit: cover;
+}
+
+#prev i, #next i{
+    padding: 0.4rem;
+    color: black;
+}
+
+i{
+    font-size: 2rem;
+    opacity: 0.5;
+}
+
+i:hover{
+    opacity: 1;
+}
+
+.item{
+    display: none;
+}
+
+.item.active{
+    display: inline;
+}
+
+#console div{
+    display: inline-block;
+}
