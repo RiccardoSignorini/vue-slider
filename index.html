@@ -17,7 +17,7 @@
     <!-- DIV VUE -->
     <div id="app">
 
-        <div class="container d-flex text-center vh-100 align-items-center">
+        <div class="container d-flex text-center">
             <!-- CONTAINER FOTO E CONSOLE -->
             <div id="carousel">
                 <!-- SLIDER -->
@@ -37,20 +37,20 @@
                 <!-- CONSOLE COMANDO -->
                 <div id="console" class="m-3">
                     <div>
-                        <a href="#" id="prev">
+                        <a href="#" id="prev" @click="prev">
                             <i class="fa-solid fa-angle-left"></i>
                         </a>
                     </div>
-                    <div class="mx-3">
+                    <!-- <div class="mx-3">
                         <a href="#" class="item active" id="play">
                             <i class="fa-solid fa-play"></i>
                         </a>
                         <a href="#" class="item" id="pause">
                             <i class="fa-solid fa-pause"></i>
                         </a>
-                    </div>
+                    </div> -->
                     <div>
-                        <a href="#" id="next">
+                        <a href="#" id="next" @click="next">
                             <i class="fa-solid fa-angle-right"></i>
                         </a>
                     </div> 

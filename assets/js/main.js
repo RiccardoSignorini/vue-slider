@@ -51,5 +51,18 @@ createApp({
     },
     methods: {
         // FUNZIONI
+        next(){
+            this.imgActive++
+            if(this.imgActive>this.copertine.images.length-1){
+                this.imgActive = 0
+            }
+        },
+        prev(){
+            if(this.imgActive==0){
+                this.imgActive = this.copertine.images.length-1
+            } else{
+                this.imgActive--
+            }
+        },
     }
 }).mount('#app')
